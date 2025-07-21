@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    {"path": "./package/commitlint-config"},
+    {"path": "./package/eslint-config"}
+  ]
+}
