@@ -1,5 +1,16 @@
 # @areven/eslint-config-react
 
+## 0.2.0
+
+### Minor Changes
+
+- dc0cf1b: Forced cjs output due to lack of proper esm support by eslint
+
+### Patch Changes
+
+- Updated dependencies [dc0cf1b]
+  - @areven/eslint-config@0.2.0
+
 ## 0.1.0
 
 ### Minor Changes
