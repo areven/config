@@ -1,0 +1,63 @@
+{
+  "name": "@areven/eslint-config",
+  "author": "Areven",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Areven's eslint config",
+  "keywords": [
+    "areven",
+    "config",
+    "eslint"
+  ],
+  "homepage": "https://areven.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areven/config.git",
+    "directory": "package/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/areven/config/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "license.md",
+    "changelog.md",
+    "./dist/**/*",
+    "!**/*.tsbuildinfo"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "raw": "./src/index.ts",
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "raw": "./src/index.ts",
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-rulesdir": "0.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9",
+    "typescript-eslint": ">= 8"
+  },
+  "peerDependenciesMeta": {
+    "typescript-eslint": {
+      "optional": true
+    }
+  }
+}
