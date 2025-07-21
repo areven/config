@@ -30,6 +30,10 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "import": {
+        "raw": "./src/index.ts",
+        "default": "./dist/index.js"
+      },
       "require": {
         "raw": "./src/index.ts",
         "types": "./dist/index.d.ts",
