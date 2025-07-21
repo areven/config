@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/areven/config/issues"
   },
-  "type": "module",
+  "type": "commonjs",
   "sideEffects": false,
   "files": [
     "license.md",
@@ -30,15 +30,10 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": {
+      "require": {
         "raw": "./src/index.ts",
         "types": "./dist/index.d.ts",
         "default": "./dist/index.js"
-      },
-      "require": {
-        "raw": "./src/index.ts",
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
       }
     },
     "./package.json": "./package.json"

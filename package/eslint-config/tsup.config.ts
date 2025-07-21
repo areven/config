@@ -9,6 +9,6 @@ export default defineConfig({
   tsconfig: './tsconfig.build.json',
   entry: ['src/index.ts'],
   clean: true,
-  format: ['cjs', 'esm'],
+  format: ['cjs'],
   dts: true
 });
