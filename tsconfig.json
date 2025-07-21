@@ -3,6 +3,8 @@
   "include": [],
   "references": [
     {"path": "./package/commitlint-config"},
-    {"path": "./package/eslint-config"}
+    {"path": "./package/eslint-config"},
+    {"path": "./package/eslint-config-node"},
+    {"path": "./package/eslint-config-react"}
   ]
 }
