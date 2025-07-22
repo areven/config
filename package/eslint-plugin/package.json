@@ -1,0 +1,51 @@
+{
+  "name": "@areven/eslint-plugin",
+  "author": "Areven",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Areven's eslint extensions",
+  "keywords": [
+    "areven",
+    "plugin",
+    "eslint"
+  ],
+  "homepage": "https://areven.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areven/config.git",
+    "directory": "package/eslint-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/areven/config/issues"
+  },
+  "type": "commonjs",
+  "sideEffects": false,
+  "files": [
+    "license.md",
+    "changelog.md",
+    "./dist/**/*",
+    "!**/*.tsbuildinfo"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "raw": "./src/index.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "raw": "./src/index.ts",
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  }
+}
