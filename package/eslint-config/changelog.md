@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.3.0
+
+### Minor Changes
+
+- a354513: Updated the config to use the external @areven/eslint-plugin for custom rules
+
 ## 0.2.0
 
 ### Minor Changes
