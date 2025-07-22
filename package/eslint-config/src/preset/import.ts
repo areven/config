@@ -24,5 +24,5 @@ export const eslintPresetImport: Linter.RulesRecord = {
   'import/no-self-import': 'error',
   'import/no-useless-path-segments': 'error',
   'import/order': ['error', {groups: [['builtin', 'external']]}],
-  'rulesdir/import-order': ['error']
+  '@areven/import-order': ['error']
 };
