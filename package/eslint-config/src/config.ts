@@ -3,6 +3,7 @@
 // =============================================================================
 
 import type {Linter} from 'eslint';
+import globals from 'globals';
 import {jsFiles, tsFiles, usesJSX, usesTypeScript} from './environment';
 import {eslintPresetJavaScript} from './preset/javascript';
 import {eslintPresetStylistic} from './preset/stylistic';
@@ -32,7 +33,10 @@ export const eslintConfig: Linter.Config[] = [
   {
     files: jsFiles,
     languageOptions: {
-      sourceType: 'module'
+      sourceType: 'module',
+      globals: {
+        ...globals['shared-node-browser']
+      }
     },
     plugins: {
       '@areven': require('@areven/eslint-plugin'),
@@ -65,6 +69,9 @@ export const eslintConfig: Linter.Config[] = [
       parser: require('typescript-eslint').parser,
       parserOptions: {
         project: true
+      },
+      globals: {
+        ...globals['shared-node-browser']
       }
     },
     plugins: {
