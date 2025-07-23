@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.9.0
+
+### Minor Changes
+
+- 1f3aced: Switched to using the typescript resolver for imports
+
 ## 0.8.0
 
 ### Minor Changes
