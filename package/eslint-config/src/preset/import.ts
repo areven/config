@@ -56,6 +56,9 @@ export const eslintPresetImport: Linter.RulesRecord = {
     },
     named: {
       enabled: true,
+      export: false,
+      require: false,
+      cjsExports: false,
       types: 'types-last'
     }
   }]
