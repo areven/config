@@ -1,5 +1,12 @@
 # @areven/eslint-config
 
+## 0.8.0
+
+### Minor Changes
+
+- 0bbdc85: Added support for import rules in the base eslint config
+- f02a10f: Adjusted the import preset
+
 ## 0.7.0
 
 ### Minor Changes
