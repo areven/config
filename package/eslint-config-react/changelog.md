@@ -1,5 +1,13 @@
 # @areven/eslint-config-react
 
+## 0.2.6
+
+### Patch Changes
+
+- Updated dependencies [0bbdc85]
+- Updated dependencies [f02a10f]
+  - @areven/eslint-config@0.8.0
+
 ## 0.2.5
 
 ### Patch Changes

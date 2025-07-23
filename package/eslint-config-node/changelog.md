@@ -1,5 +1,17 @@
 # @areven/eslint-config-node
 
+## 0.3.0
+
+### Minor Changes
+
+- 0bbdc85: Added support for import rules in the base eslint config
+
+### Patch Changes
+
+- Updated dependencies [0bbdc85]
+- Updated dependencies [f02a10f]
+  - @areven/eslint-config@0.8.0
+
 ## 0.2.5
 
 ### Patch Changes
