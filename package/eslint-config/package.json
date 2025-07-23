@@ -2,7 +2,7 @@
   "name": "@areven/eslint-config",
   "author": "Areven",
   "license": "MIT",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Areven's eslint config",
   "keywords": [
     "areven",
