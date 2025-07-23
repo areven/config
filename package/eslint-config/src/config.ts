@@ -5,6 +5,7 @@
 import type {Linter} from 'eslint';
 import {jsFiles, tsFiles, usesJSX, usesTypeScript} from './environment';
 import {eslintPresetJavaScript} from './preset/javascript';
+import {eslintPresetStylistic} from './preset/stylistic';
 import {eslintPresetTypeScript} from './preset/typescript';
 import {isString} from './util';
 
@@ -35,6 +36,7 @@ export const eslintConfig: Linter.Config[] = [
     },
     plugins: {
       '@areven': require('@areven/eslint-plugin'),
+      '@stylistic': require('@stylistic/eslint-plugin'),
       'import': require('eslint-plugin-import')
     },
     settings: {
@@ -52,7 +54,8 @@ export const eslintConfig: Linter.Config[] = [
       }
     },
     rules: {
-      ...eslintPresetJavaScript
+      ...eslintPresetJavaScript,
+      ...eslintPresetStylistic
     }
   },
 
@@ -66,6 +69,7 @@ export const eslintConfig: Linter.Config[] = [
     },
     plugins: {
       '@areven': require('@areven/eslint-plugin'),
+      '@stylistic': require('@stylistic/eslint-plugin'),
       '@typescript-eslint': require('typescript-eslint').plugin,
       'import': require('eslint-plugin-import')
     },
@@ -85,7 +89,8 @@ export const eslintConfig: Linter.Config[] = [
     },
     rules: {
       ...eslintPresetJavaScript,
-      ...eslintPresetTypeScript
+      ...eslintPresetTypeScript,
+      ...eslintPresetStylistic
     }
   }])
 ];

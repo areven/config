@@ -6,32 +6,11 @@ import type {Linter} from 'eslint';
 
 
 export const eslintPresetJavaScript: Linter.RulesRecord = {
-  'array-bracket-spacing': ['error', 'never'],
   'array-callback-return': 'error',
-  'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
-  'arrow-spacing': 'error',
-  'block-spacing': ['error', 'always'],
-  'brace-style': ['error', '1tbs', {allowSingleLine: true}],
-  'comma-dangle': ['error', 'never'],
-  'comma-spacing': 'error',
-  'comma-style': ['error', 'last'],
-  'computed-property-spacing': ['error', 'never'],
   'constructor-super': 'error',
   'curly': ['error', 'multi-line'],
-  'dot-location': ['error', 'property'],
-  'eol-last': ['error', 'always'],
   'eqeqeq': ['error', 'always', {null: 'ignore'}],
-  'func-call-spacing': ['error', 'never'],
-  'generator-star-spacing': ['error', 'before'],
-  // 'indent': ['error', 2, {SwitchCase: 1}], <- broken, re-enable once fixed
-  'jsx-quotes': ['error', 'prefer-single'],
-  'key-spacing': ['error'],
-  'keyword-spacing': ['error'],
-  'linebreak-style': ['error'],
-  'max-len': ['error', 120, 2],
-  'max-statements-per-line': ['error', {max: 1}],
   'new-cap': ['error', {newIsCap: true, capIsNew: false, properties: false}],
-  'new-parens': 'error',
   'no-alert': 'error',
   'no-array-constructor': 'error',
   'no-caller': 'error',
@@ -55,9 +34,7 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'no-extend-native': 'error',
   'no-extra-bind': 'error',
   'no-extra-boolean-cast': 'error',
-  'no-extra-semi': 'error',
   'no-fallthrough': 'error',
-  'no-floating-decimal': 'error',
   'no-func-assign': 'error',
   'no-global-assign': 'error',
   'no-implied-eval': 'error',
@@ -67,20 +44,8 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'no-iterator': 'error',
   'no-labels': 'error',
   'no-lone-blocks': 'error',
-  'no-mixed-operators': [
-    'error', {
-      groups: [
-        ['&', '|', '^', '~', '<<', '>>', '>>>'],
-        ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
-        ['in', 'instanceof']
-      ],
-      allowSamePrecedence: true
-    }
-  ],
-  'no-mixed-spaces-and-tabs': 'error',
-  'no-multi-spaces': ['error', {exceptions: {Property: false}}],
+  'no-loss-of-precision': 'error',
   'no-multi-str': 'error',
-  'no-multiple-empty-lines': ['error', {max: 2, maxBOF: 0, maxEOF: 0}],
   'no-new-func': 'error',
   'no-new-symbol': 'error',
   'no-obj-calls': 'error',
@@ -93,9 +58,7 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'no-script-url': 'error',
   'no-self-assign': 'error',
   'no-self-compare': 'error',
-  'no-spaced-func': 'error',
   'no-sparse-arrays': 'error',
-  'no-trailing-spaces': 'error',
   'no-this-before-super': 'error',
   'no-undef': 'error',
   'no-unexpected-multiline': 'error',
@@ -108,33 +71,17 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'no-useless-rename': 'error',
   'no-void': 'error',
   'no-var': 'error',
-  'no-whitespace-before-property': 'error',
-  'object-curly-spacing': ['error', 'never'],
-  'operator-linebreak': ['error', 'after'],
-  'padded-blocks': ['error', 'never'],
   'prefer-arrow-callback': ['error', {allowNamedFunctions: true}],
   'prefer-const': ['error', {destructuring: 'all'}],
   'prefer-numeric-literals': 'error',
   'prefer-spread': 'error',
-  'quotes': ['error', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
   'require-yield': 'error',
-  'rest-spread-spacing': ['error', 'never'],
-  'semi': ['error', 'always'],
-  'semi-spacing': 'error',
   'sort-imports': [
     'error', {
       ignoreCase: true,
       ignoreDeclarationSort: true
     }
   ],
-  'space-before-blocks': ['error', 'always'],
-  'space-before-function-paren': ['error', {anonymous: 'always', named: 'never'}],
-  'space-in-parens': 'error',
-  'space-infix-ops': 'error',
-  'space-unary-ops': ['error', {words: true, nonwords: false}],
-  'spaced-comment': ['error', 'always'],
-  // 'template-curly-spacing': ['error', 'never'], <- broken, re-enable once fixed
   'use-isnan': 'error',
-  'valid-typeof': 'error',
-  'yield-star-spacing': 'error'
+  'valid-typeof': 'error'
 };
