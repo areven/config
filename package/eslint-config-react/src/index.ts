@@ -4,7 +4,7 @@
 
 import globals from 'globals';
 import coreConfig, {
-  eslintPresetImport, eslintPresetReact, eslintPresetReactHooks, jsFiles, tsFiles, usesTypeScript
+  eslintPresetReact, eslintPresetReactHooks, jsFiles, tsFiles, usesTypeScript
 } from '@areven/eslint-config';
 import type {Linter} from 'eslint';
 
@@ -57,7 +57,6 @@ const eslintConfig: Linter.Config[] = [
     },
 
     rules: {
-      ...eslintPresetImport,
       ...eslintPresetReact,
       ...eslintPresetReactHooks
     }

@@ -65,7 +65,7 @@ export const eslintPresetTypeScript: Linter.RulesRecord = {
   '@typescript-eslint/no-useless-constructor': 'error',
   '@typescript-eslint/no-wrapper-object-types': 'error',
   '@typescript-eslint/non-nullable-type-assertion-style': 'error',
-  '@typescript-eslint/only-throw-error': 'error',
+  // '@typescript-eslint/only-throw-error': 'error', <- suspense requires throwing promises
   '@typescript-eslint/prefer-as-const': 'error',
   '@typescript-eslint/prefer-enum-initializers': 'error',
   '@typescript-eslint/prefer-find': 'error',

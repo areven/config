@@ -3,7 +3,7 @@
 // =============================================================================
 
 import globals from 'globals';
-import coreConfig, {eslintPresetImport, jsFiles, tsFiles, usesTypeScript} from '@areven/eslint-config';
+import coreConfig, {jsFiles, tsFiles, usesTypeScript} from '@areven/eslint-config';
 import type {Linter} from 'eslint';
 
 
