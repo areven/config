@@ -51,7 +51,7 @@ export const eslintPresetImport: Linter.RulesRecord = {
     ],
     alphabetize: {
       order: 'asc',
-      orderImportKind: true,
+      orderImportKind: 'asc',
       caseInsensitive: true
     },
     named: {
