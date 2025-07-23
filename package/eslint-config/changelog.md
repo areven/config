@@ -1,5 +1,12 @@
 # @areven/eslint-config
 
+## 0.6.0
+
+### Minor Changes
+
+- 0ea420b: Added shared list of globals to the default eslint config
+- 29c97a7: Tweaked the presets
+
 ## 0.5.0
 
 ### Minor Changes
