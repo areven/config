@@ -18,7 +18,7 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'no-class-assign': 'error',
   'no-cond-assign': 'error',
   'no-const-assign': 'error',
-  'no-constant-condition': 'error',
+  'no-constant-condition': ['error', {checkLoops: 'none'}],
   'no-debugger': 'error',
   'no-delete-var': 'error',
   'no-dupe-args': 'error',
@@ -75,7 +75,6 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'prefer-const': ['error', {destructuring: 'all'}],
   'prefer-numeric-literals': 'error',
   'prefer-spread': 'error',
-  'require-yield': 'error',
   'sort-imports': [
     'error', {
       ignoreCase: true,
