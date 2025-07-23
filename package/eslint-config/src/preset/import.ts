@@ -6,7 +6,9 @@ import type {Linter} from 'eslint';
 
 
 export const eslintPresetImport: Linter.RulesRecord = {
+  'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
   'import/default': 'error',
+  'import/enforce-node-protocol-usage': ['error', 'always'],
   'import/export': 'error',
   'import/extensions': [
     'error', 'always', {
@@ -16,13 +18,38 @@ export const eslintPresetImport: Linter.RulesRecord = {
   ],
   'import/first': 'error',
   'import/named': 'error',
-  'import/newline-after-import': ['error', {count: 2}],
+  'import/namespace': 'error',
+  'import/newline-after-import': ['error', {count: 2, exactCount: true, considerComments: true}],
   'import/no-absolute-path': 'error',
   'import/no-duplicates': 'error',
   'import/no-empty-named-blocks': ['error'],
   'import/no-extraneous-dependencies': ['error'],
   'import/no-self-import': 'error',
   'import/no-useless-path-segments': 'error',
-  'import/order': ['error', {groups: [['builtin', 'external']]}],
-  '@areven/import-order': ['error']
+  'import/order': ['error', {
+    groups: [
+      'external',
+      'builtin', // will use proto: prefix
+      'internal',
+      'parent',
+      'index',
+      'sibling',
+      'object',
+      'type'
+    ],
+    sortTypesGroup: true,
+    pathGroupsExcludedImportTypes: ['external'],
+    pathGroups: [
+      {
+        pattern: '@**',
+        group: 'builtin',
+        position: 'after'
+      },
+      {
+        pattern: '~/**',
+        group: 'internal'
+      }
+    ]
+  }]
+  // '@areven/import-order': ['error']
 };

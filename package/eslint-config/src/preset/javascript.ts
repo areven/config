@@ -69,7 +69,6 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   // 'no-useless-call': 'error', <- broken
   'no-useless-computed-key': 'error',
   'no-useless-rename': 'error',
-  'no-void': 'error',
   'no-var': 'error',
   'prefer-arrow-callback': ['error', {allowNamedFunctions: true}],
   'prefer-const': ['error', {destructuring: 'all'}],
