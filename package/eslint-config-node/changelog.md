@@ -1,5 +1,16 @@
 # @areven/eslint-config-node
 
+## 2.0.0
+
+### Major Changes
+
+- 0d17859: Disabled alphabetical sorting of exports
+
+### Patch Changes
+
+- Updated dependencies [0d17859]
+  - @areven/eslint-config@2.0.0
+
 ## 1.0.0
 
 ### Major Changes
