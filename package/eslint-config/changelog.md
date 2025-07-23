@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.5.0
+
+### Minor Changes
+
+- a53e519: Tweaked the presets
+
 ## 0.4.0
 
 ### Minor Changes
