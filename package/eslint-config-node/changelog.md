@@ -1,5 +1,12 @@
 # @areven/eslint-config-node
 
+## 0.3.1
+
+### Patch Changes
+
+- Updated dependencies [1f3aced]
+  - @areven/eslint-config@0.9.0
+
 ## 0.3.0
 
 ### Minor Changes
