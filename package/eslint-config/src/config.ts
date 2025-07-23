@@ -5,6 +5,7 @@
 import type {Linter} from 'eslint';
 import globals from 'globals';
 import {jsFiles, tsFiles, usesJSX, usesTypeScript} from './environment';
+import {eslintPresetImport} from './preset/import';
 import {eslintPresetJavaScript} from './preset/javascript';
 import {eslintPresetStylistic} from './preset/stylistic';
 import {eslintPresetTypeScript} from './preset/typescript';
@@ -44,6 +45,9 @@ export const eslintConfig: Linter.Config[] = [
       'import': require('eslint-plugin-import')
     },
     settings: {
+      'import/parsers': {
+        'espree': jsFiles
+      },
       'import/resolver': {
         alias: {
           map: [['~', './']],
@@ -59,6 +63,7 @@ export const eslintConfig: Linter.Config[] = [
     },
     rules: {
       ...eslintPresetJavaScript,
+      ...eslintPresetImport,
       ...eslintPresetStylistic
     }
   },
@@ -81,6 +86,9 @@ export const eslintConfig: Linter.Config[] = [
       'import': require('eslint-plugin-import')
     },
     settings: {
+      'import/parsers': {
+        '@typescript-eslint/parser': tsFiles
+      },
       'import/resolver': {
         alias: {
           map: [['~', './']],
@@ -97,6 +105,7 @@ export const eslintConfig: Linter.Config[] = [
     rules: {
       ...eslintPresetJavaScript,
       ...eslintPresetTypeScript,
+      ...eslintPresetImport,
       ...eslintPresetStylistic
     }
   }])

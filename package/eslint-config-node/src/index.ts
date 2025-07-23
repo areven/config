@@ -16,16 +16,6 @@ const eslintConfig: Linter.Config[] = [
       globals: {
         ...globals.node
       }
-    },
-
-    settings: {
-      'import/parsers': {
-        'espree': jsFiles
-      }
-    },
-
-    rules: {
-      ...eslintPresetImport
     }
   },
 
@@ -35,16 +25,6 @@ const eslintConfig: Linter.Config[] = [
       globals: {
         ...globals.node
       }
-    },
-
-    settings: {
-      'import/parsers': {
-        'espree': tsFiles
-      }
-    },
-
-    rules: {
-      ...eslintPresetImport
     }
   }])
 ];
