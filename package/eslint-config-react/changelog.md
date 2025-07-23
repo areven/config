@@ -1,5 +1,11 @@
 # @areven/eslint-config-react
 
+## 0.3.0
+
+### Minor Changes
+
+- a2cceb8: Moved away from babel for parsing JSX
+
 ## 0.2.9
 
 ### Patch Changes
