@@ -90,15 +90,9 @@ export const eslintConfig: Linter.Config[] = [
         '@typescript-eslint/parser': tsFiles
       },
       'import/resolver': {
-        alias: {
-          map: [['~', './']],
-          extensions: [
-            '.ts',
-           usesJSX && '.tsx',
-            '.js',
-            usesJSX && '.jsx',
-            '.json'
-          ].filter(isString)
+        typescript: {
+          alwaysTryTypes: true,
+          bun: false
         }
       }
     },

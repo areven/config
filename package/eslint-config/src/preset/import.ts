@@ -23,7 +23,6 @@ export const eslintPresetImport: Linter.RulesRecord = {
   'import/no-absolute-path': 'error',
   'import/no-duplicates': 'error',
   'import/no-empty-named-blocks': ['error'],
-  'import/no-extraneous-dependencies': ['error'],
   'import/no-self-import': 'error',
   'import/no-useless-path-segments': 'error',
   'import/order': ['error', {

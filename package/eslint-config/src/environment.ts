@@ -5,7 +5,7 @@
 import {hasModule, isString} from './util';
 
 
-export const usesTypeScript: boolean = hasModule('typescript-eslint');
+export const usesTypeScript: boolean = hasModule('typescript');
 export const usesJSX: boolean = hasModule('react');
 
 export const jsFiles: string[] = [
