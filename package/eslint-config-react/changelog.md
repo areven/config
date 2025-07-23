@@ -1,5 +1,16 @@
 # @areven/eslint-config-react
 
+## 1.0.0
+
+### Major Changes
+
+- 91e74d0: Published the first major release
+
+### Patch Changes
+
+- Updated dependencies [91e74d0]
+  - @areven/eslint-config@1.0.0
+
 ## 0.3.0
 
 ### Minor Changes
