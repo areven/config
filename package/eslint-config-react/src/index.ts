@@ -13,6 +13,28 @@ const eslintConfig: Linter.Config[] = [
   ...coreConfig,
 
   {
+    files: ['**/*.jsx'],
+    languageOptions: {
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true
+        }
+      }
+    }
+  },
+
+  {
+    files: ['**/*.tsx'],
+    languageOptions: {
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true
+        }
+      }
+    }
+  },
+
+  {
     files: [
       ...jsFiles,
       ...(usesTypeScript ? tsFiles : [])
@@ -22,7 +44,6 @@ const eslintConfig: Linter.Config[] = [
       'react-hooks': require('eslint-plugin-react-hooks')
     },
     languageOptions: {
-      parser: require('@babel/eslint-parser'),
       globals: {
         ...globals.browser,
         ...globals.node
@@ -32,12 +53,6 @@ const eslintConfig: Linter.Config[] = [
     settings: {
       'react': {
         version: 'detect'
-      },
-      'import/parsers': {
-        '@babel/eslint-parser': [
-          ...jsFiles,
-          ...(usesTypeScript ? tsFiles : [])
-        ]
       }
     },
 
