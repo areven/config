@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.4.0
+
+### Minor Changes
+
+- 32544dd: Migrated to the @stylistic/eslint-plugin package
+
 ## 0.3.1
 
 ### Patch Changes
