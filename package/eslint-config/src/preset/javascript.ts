@@ -66,7 +66,7 @@ export const eslintPresetJavaScript: Linter.RulesRecord = {
   'no-unreachable': 'error',
   'no-unsafe-finally': 'error',
   'no-unsafe-negation': 'error',
-  'no-useless-call': 'error',
+  // 'no-useless-call': 'error', <- broken
   'no-useless-computed-key': 'error',
   'no-useless-rename': 'error',
   'no-void': 'error',
