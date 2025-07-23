@@ -2,7 +2,7 @@
   "name": "@areven/eslint-config-react",
   "author": "Areven",
   "license": "MIT",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Areven's eslint config for react",
   "keywords": [
     "areven",
@@ -46,7 +46,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@areven/eslint-config": "^0.4.0",
+    "@areven/eslint-config": "^0.5.0",
     "@babel/eslint-parser": "7.28.0",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
