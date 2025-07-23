@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.11.0
+
+### Minor Changes
+
+- 07521b3: Fixed invalid import/order configuration
+
 ## 0.10.0
 
 ### Minor Changes
