@@ -48,7 +48,15 @@ export const eslintPresetImport: Linter.RulesRecord = {
         pattern: '~/**',
         group: 'internal'
       }
-    ]
+    ],
+    alphabetize: {
+      order: 'asc',
+      orderImportKind: true,
+      caseInsensitive: true
+    },
+    named: {
+      enabled: true,
+      types: 'types-last'
+    }
   }]
-  // '@areven/import-order': ['error']
 };
