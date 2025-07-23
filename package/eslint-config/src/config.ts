@@ -34,7 +34,7 @@ export const eslintConfig: Linter.Config[] = [
       sourceType: 'module'
     },
     plugins: {
-      'areven': require('@areven/eslint-plugin'),
+      '@areven': require('@areven/eslint-plugin'),
       'import': require('eslint-plugin-import')
     },
     settings: {
@@ -65,9 +65,9 @@ export const eslintConfig: Linter.Config[] = [
       }
     },
     plugins: {
+      '@areven': require('@areven/eslint-plugin'),
       '@typescript-eslint': require('typescript-eslint').plugin,
-      'import': require('eslint-plugin-import'),
-      'rulesdir': require('eslint-plugin-rulesdir')
+      'import': require('eslint-plugin-import')
     },
     settings: {
       'import/resolver': {
