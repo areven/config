@@ -18,7 +18,7 @@ export const eslintPresetStylistic: Linter.RulesRecord = {
   '@stylistic/dot-location': ['error', 'property'],
   '@stylistic/eol-last': ['error', 'always'],
   '@stylistic/function-call-spacing': ['error', 'never'],
-  '@stylistic/generator-star-spacing': ['error', 'before'],
+  '@stylistic/generator-star-spacing': ['error', 'after'],
   '@stylistic/indent': ['error', 2, {SwitchCase: 1, flatTernaryExpressions: true}],
   '@stylistic/jsx-quotes': ['error', 'prefer-single'],
   '@stylistic/key-spacing': ['error'],
