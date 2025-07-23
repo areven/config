@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.10.0
+
+### Minor Changes
+
+- 15b0217: Adjusted the import preset
+
 ## 0.9.0
 
 ### Minor Changes
