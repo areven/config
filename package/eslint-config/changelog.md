@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- 0d17859: Disabled alphabetical sorting of exports
+
 ## 1.0.0
 
 ### Major Changes
