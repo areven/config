@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 0.7.0
+
+### Minor Changes
+
+- 64058a3: Tweaked the presets
+
 ## 0.6.0
 
 ### Minor Changes
