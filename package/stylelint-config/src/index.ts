@@ -35,7 +35,7 @@ const stylelintConfig: Config = {
     'block-no-empty': true,
     'color-function-alias-notation': 'without-alpha',
     'color-function-notation': 'modern',
-    'color-hex-length': 'short',
+    'color-hex-length': 'long',
 		'color-no-invalid-hex': true,
     'comment-empty-line-before': ['always', {
       except: ['first-nested'],
@@ -49,10 +49,6 @@ const stylelintConfig: Config = {
     'custom-media-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
       message: (name: string) => `Expected custom media query name "${name}" to be kebab-case`,
     }],
-    'custom-property-empty-line-before': ['always', {
-      except: ['after-custom-property', 'first-nested'],
-      ignore: ['after-comment', 'inside-single-line-block'],
-    }],
     'custom-property-no-missing-var-function': true,
     'custom-property-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
       message: (name: string) => `Expected custom property name "${name}" to be kebab-case`,
@@ -61,13 +57,8 @@ const stylelintConfig: Config = {
     'declaration-block-no-duplicate-properties': [true, {
       ignore: ['consecutive-duplicates-with-different-syntaxes']
     }],
-    'declaration-block-no-redundant-longhand-properties': true,
     'declaration-block-no-shorthand-property-overrides': true,
     'declaration-block-single-line-max-declarations': 1,
-    'declaration-empty-line-before': ['always', {
-      except: ['after-declaration', 'first-nested'],
-      ignore: ['after-comment', 'inside-single-line-block']
-    }],
     'declaration-property-value-keyword-no-deprecated': true,
     'declaration-property-value-no-unknown': true,
     'font-family-name-quotes': 'always-where-recommended',
@@ -110,7 +101,7 @@ const stylelintConfig: Config = {
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': ['always-multi-line', {
       except: ['first-nested'],
-      ignore: ['after-comment']
+      ignore: ['after-comment', 'inside-block']
     }],
     'selector-anb-no-unmatchable': true,
     'selector-attribute-quotes': 'always',
@@ -122,7 +113,9 @@ const stylelintConfig: Config = {
     }],
     'selector-no-vendor-prefix': true,
     'selector-not-notation': 'complex',
-    'selector-pseudo-class-no-unknown': true,
+    'selector-pseudo-class-no-unknown': [true, {
+      ignorePseudoClasses: 'global'
+    }],
     'selector-pseudo-element-colon-notation': 'double',
     'selector-pseudo-element-no-unknown': true,
     'selector-type-case': 'lower',

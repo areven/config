@@ -82,7 +82,6 @@ const stylelintConfig: Config = {
       'scss/no-duplicate-mixins': true,
       'scss/no-global-function-names': true,
       'scss/operator-no-newline-after': true,
-      'scss/operator-no-newline-before': true,
       'scss/operator-no-unspaced': true,
       'scss/percent-placeholder-pattern': ['^(-?[a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
         message: 'Expected placeholder to be kebab-case'
