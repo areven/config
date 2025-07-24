@@ -1,5 +1,11 @@
 # @areven/eslint-config-react
 
+## 3.0.0
+
+### Major Changes
+
+- 64e1eec: Installed the jsx-a11y plugin with the recommended ruleset
+
 ## 2.1.0
 
 ### Minor Changes
