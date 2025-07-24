@@ -1,0 +1,61 @@
+{
+  "name": "@areven/stylelint-config-scss",
+  "author": "Areven",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Areven's stylelint config for scss",
+  "keywords": [
+    "areven",
+    "config",
+    "stylelint"
+  ],
+  "homepage": "https://areven.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areven/config.git",
+    "directory": "package/stylelint-config-scss"
+  },
+  "bugs": {
+    "url": "https://github.com/areven/config/issues"
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
+  "type": "commonjs",
+  "sideEffects": false,
+  "files": [
+    "readme.md",
+    "license.md",
+    "changelog.md",
+    "./dist/**/*",
+    "!**/*.tsbuildinfo"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "raw": "./src/index.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "raw": "./src/index.ts",
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@areven/stylelint-config": "^0.0.1",
+    "postcss-scss": "4.0.9",
+    "stylelint-scss": "6.12.1"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 16"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "@areven/stylelint-config",
+  "author": "Areven",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Areven's stylelint config",
+  "keywords": [
+    "areven",
+    "config",
+    "stylelint"
+  ],
+  "homepage": "https://areven.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areven/config.git",
+    "directory": "package/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/areven/config/issues"
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
+  "type": "commonjs",
+  "files": [
+    "readme.md",
+    "license.md",
+    "changelog.md",
+    "./dist/**/*",
+    "!**/*.tsbuildinfo"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "raw": "./src/index.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "raw": "./src/index.ts",
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 16"
+  }
+}
