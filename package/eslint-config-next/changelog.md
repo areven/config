@@ -1,5 +1,13 @@
 # @areven/eslint-config-next
 
+## 2.0.1
+
+### Patch Changes
+
+- c34cf60: Generated npm provenance statements for the package
+- Updated dependencies [c34cf60]
+  - @areven/eslint-config@3.0.1
+
 ## 2.0.0
 
 ### Major Changes
