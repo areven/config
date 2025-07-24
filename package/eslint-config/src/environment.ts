@@ -10,10 +10,24 @@ export const usesJSX: boolean = hasModule('react');
 
 export const jsFiles: string[] = [
   '**/*.js',
-  usesJSX && '**/*.jsx'
+  '**/*.mjs',
+  '**/*.cjs',
+  usesJSX && '**/*.jsx',
+  usesJSX && '**/*.mjsx'
 ].filter(isString);
 
 export const tsFiles: string[] = [
   '**/*.ts',
-  usesJSX && '**/*.tsx'
-].filter(isString)
+  usesJSX && '**/*.tsx',
+  usesJSX && '**/*.mtsx'
+].filter(isString);
+
+export const jsxFiles: string[] = [
+  '**/*.jsx',
+  '**/*.mjsx'
+].filter(isString);
+
+export const tsxFiles: string[] = [
+  '**/*.tsx',
+  '**/*.mtsx'
+].filter(isString);

@@ -4,7 +4,7 @@
 
 import globals from 'globals';
 import coreConfig, {
-  eslintPresetReact, eslintPresetReactHooks, jsFiles, tsFiles, usesTypeScript
+  eslintPresetReact, eslintPresetReactHooks, jsFiles, jsxFiles, tsFiles, tsxFiles, usesTypeScript
 } from '@areven/eslint-config';
 import type {Linter} from 'eslint';
 
@@ -13,7 +13,7 @@ const eslintConfig: Linter.Config[] = [
   ...coreConfig,
 
   {
-    files: ['**/*.jsx'],
+    files: jsxFiles,
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {
@@ -24,7 +24,7 @@ const eslintConfig: Linter.Config[] = [
   },
 
   {
-    files: ['**/*.tsx'],
+    files: tsxFiles,
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {
