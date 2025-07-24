@@ -1,5 +1,17 @@
 # @areven/eslint-config-react
 
+## 2.1.0
+
+### Minor Changes
+
+- 5df6f04: Added support for service workers globals
+- a9ba113: Added support for more file extensions
+
+### Patch Changes
+
+- Updated dependencies [a9ba113]
+  - @areven/eslint-config@2.1.0
+
 ## 2.0.0
 
 ### Major Changes

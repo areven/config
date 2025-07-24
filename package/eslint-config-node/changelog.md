@@ -1,5 +1,16 @@
 # @areven/eslint-config-node
 
+## 2.1.0
+
+### Minor Changes
+
+- a9ba113: Added support for more file extensions
+
+### Patch Changes
+
+- Updated dependencies [a9ba113]
+  - @areven/eslint-config@2.1.0
+
 ## 2.0.0
 
 ### Major Changes
