@@ -1,5 +1,16 @@
 # @areven/stylelint-config-scss
 
+## 2.0.0
+
+### Major Changes
+
+- 3f805fe: Enabled cjs interop
+
+### Patch Changes
+
+- Updated dependencies [3f805fe]
+  - @areven/stylelint-config@2.0.0
+
 ## 1.1.0
 
 ### Minor Changes
