@@ -6,6 +6,9 @@ import type {Config} from 'stylelint';
 
 
 const stylelintConfig: Config = {
+  defaultSeverity: 'error',
+  allowEmptyInput: true,
+  reportNeedlessDisables: true,
   rules: {
     'alpha-value-notation': ['percentage', {
       exceptProperties: [
