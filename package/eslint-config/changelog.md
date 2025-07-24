@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 2.2.0
+
+### Minor Changes
+
+- 5292073: Extended the list of recognized extensions by the import/extensions rule
+
 ## 2.1.0
 
 ### Minor Changes
