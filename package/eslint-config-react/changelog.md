@@ -1,5 +1,16 @@
 # @areven/eslint-config-react
 
+## 3.1.0
+
+### Minor Changes
+
+- 5292073: Extended the list of recognized extensions by the import/extensions rule
+
+### Patch Changes
+
+- Updated dependencies [5292073]
+  - @areven/eslint-config@2.2.0
+
 ## 3.0.0
 
 ### Major Changes
