@@ -13,7 +13,12 @@ export const eslintPresetImport: Linter.RulesRecord = {
   'import/extensions': [
     'error', 'always', {
       'js': 'never',
-      'ts': 'never'
+      'mjs': 'never',
+      'cjs': 'never',
+      'jsx': 'never',
+      'ts': 'never',
+      'tsx': 'never',
+      'mtsx': 'never'
     }
   ],
   'import/first': 'error',
