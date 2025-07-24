@@ -22,7 +22,8 @@
     "provenance": true,
     "access": "public"
   },
-  "type": "commonjs",
+  "type": "module",
+  "sideEffects": false,
   "files": [
     "readme.md",
     "license.md",
@@ -36,12 +37,13 @@
     ".": {
       "import": {
         "raw": "./src/index.ts",
+        "types": "./dist/index.d.ts",
         "default": "./dist/index.js"
       },
       "require": {
         "raw": "./src/index.ts",
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
       }
     },
     "./package.json": "./package.json"

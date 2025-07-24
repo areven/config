@@ -9,8 +9,7 @@ const config: ReturnType<typeof defineConfig> = defineConfig({
   tsconfig: './tsconfig.build.json',
   entry: ['src/index.ts'],
   clean: true,
-  format: ['cjs'],
-  cjsInterop: true,
+  format: ['cjs', 'esm'],
   dts: true
 });
 
