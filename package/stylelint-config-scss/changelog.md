@@ -1,5 +1,16 @@
 # @areven/stylelint-config-scss
 
+## 3.0.0
+
+### Major Changes
+
+- f72b69e: Switched to esm modules
+
+### Patch Changes
+
+- Updated dependencies [f72b69e]
+  - @areven/stylelint-config@3.0.0
+
 ## 2.0.0
 
 ### Major Changes

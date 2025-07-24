@@ -1,5 +1,11 @@
 # @areven/stylelint-config
 
+## 3.0.0
+
+### Major Changes
+
+- f72b69e: Switched to esm modules
+
 ## 2.0.0
 
 ### Major Changes
