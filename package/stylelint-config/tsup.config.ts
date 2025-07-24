@@ -10,6 +10,7 @@ const config: ReturnType<typeof defineConfig> = defineConfig({
   entry: ['src/index.ts'],
   clean: true,
   format: ['cjs'],
+  cjsInterop: true,
   dts: true
 });
 
