@@ -11,7 +11,7 @@ import type {Linter} from 'eslint';
 
 
 const compat = new FlatCompat({
-  baseDirectory: import.meta.dirname
+  baseDirectory: __dirname
 });
 
 const eslintConfig: Linter.Config[] = [
