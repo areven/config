@@ -1,6 +1,9 @@
 {
   "editor.tabSize": 2,
   "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
   "files.eol": "\n",
   "files.exclude": {
     "**/.git/": true,
