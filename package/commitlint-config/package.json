@@ -25,6 +25,7 @@
   "type": "module",
   "sideEffects": false,
   "files": [
+    "readme.md",
     "license.md",
     "changelog.md",
     "./dist/**/*",

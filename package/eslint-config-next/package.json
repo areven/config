@@ -25,6 +25,7 @@
   "type": "commonjs",
   "sideEffects": false,
   "files": [
+    "readme.md",
     "license.md",
     "changelog.md",
     "./dist/**/*",
