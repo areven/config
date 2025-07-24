@@ -2,14 +2,15 @@
 // eslint-config configuration
 // =============================================================================
 
-import type {Linter} from 'eslint';
 import globals from 'globals';
 import {jsFiles, tsFiles, usesJSX, usesTypeScript} from './environment';
+import {eslintPresetAreven} from './preset/areven';
 import {eslintPresetImport} from './preset/import';
 import {eslintPresetJavaScript} from './preset/javascript';
 import {eslintPresetStylistic} from './preset/stylistic';
 import {eslintPresetTypeScript} from './preset/typescript';
 import {isString} from './util';
+import type {Linter} from 'eslint';
 
 
 export const eslintConfig: Linter.Config[] = [
@@ -99,6 +100,7 @@ export const eslintConfig: Linter.Config[] = [
     rules: {
       ...eslintPresetJavaScript,
       ...eslintPresetTypeScript,
+      ...eslintPresetAreven,
       ...eslintPresetImport,
       ...eslintPresetStylistic
     }
