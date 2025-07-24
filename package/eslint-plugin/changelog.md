@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.0.0
+
+### Major Changes
+
+- b09398d: Implemented the custom areven/file-header rule
+
 ## 1.0.0
 
 ### Major Changes

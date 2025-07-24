@@ -2,7 +2,7 @@
   "name": "@areven/eslint-config-next",
   "author": "Areven",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Areven's eslint config for next",
   "keywords": [
     "areven",
@@ -46,7 +46,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@areven/eslint-config": "^2.2.0",
+    "@areven/eslint-config": "^3.0.0",
     "@eslint/eslintrc": "3.3.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "7.37.5",

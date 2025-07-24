@@ -1,5 +1,16 @@
 # @areven/eslint-config-next
 
+## 2.0.0
+
+### Major Changes
+
+- b09398d: Implemented the custom areven/file-header rule
+
+### Patch Changes
+
+- Updated dependencies [b09398d]
+  - @areven/eslint-config@3.0.0
+
 ## 1.0.1
 
 ### Patch Changes
