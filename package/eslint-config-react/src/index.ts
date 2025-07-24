@@ -45,8 +45,9 @@ const eslintConfig: Linter.Config[] = [
     },
     languageOptions: {
       globals: {
+        ...globals.node,
         ...globals.browser,
-        ...globals.node
+        ...globals.serviceworker
       }
     },
 
