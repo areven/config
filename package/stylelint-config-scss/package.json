@@ -2,7 +2,7 @@
   "name": "@areven/stylelint-config-scss",
   "author": "Areven",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Areven's stylelint config for scss",
   "keywords": [
     "areven",
@@ -51,7 +51,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@areven/stylelint-config": "^0.0.1",
+    "@areven/stylelint-config": "^1.0.0",
     "postcss-scss": "4.0.9",
     "stylelint-scss": "6.12.1"
   },
