@@ -41,7 +41,8 @@ const eslintConfig: Linter.Config[] = [
     ],
     plugins: {
       'react': require('eslint-plugin-react'),
-      'react-hooks': require('eslint-plugin-react-hooks')
+      'react-hooks': require('eslint-plugin-react-hooks'),
+      'jsx-a11y': require('eslint-plugin-jsx-a11y')
     },
     languageOptions: {
       globals: {
@@ -59,7 +60,8 @@ const eslintConfig: Linter.Config[] = [
 
     rules: {
       ...eslintPresetReact,
-      ...eslintPresetReactHooks
+      ...eslintPresetReactHooks,
+      ...require('eslint-plugin-jsx-a11y').flatConfigs.recommended.rules
     }
   }
 ];
