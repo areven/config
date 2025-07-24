@@ -2,7 +2,7 @@
   "name": "@areven/eslint-config",
   "author": "Areven",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Areven's eslint config",
   "keywords": [
     "areven",
@@ -50,7 +50,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@areven/eslint-plugin": "2.0.1",
+    "@areven/eslint-plugin": "2.0.2",
     "@stylistic/eslint-plugin": "5.2.2",
     "eslint-import-resolver-alias": "1.1.2",
     "eslint-import-resolver-typescript": "4.4.4",

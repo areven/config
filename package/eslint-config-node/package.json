@@ -2,7 +2,7 @@
   "name": "@areven/eslint-config-node",
   "author": "Areven",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Areven's eslint config for node",
   "keywords": [
     "areven",
@@ -51,7 +51,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@areven/eslint-config": "^3.0.1",
+    "@areven/eslint-config": "^3.0.2",
     "globals": "16.3.0"
   },
   "peerDependencies": {

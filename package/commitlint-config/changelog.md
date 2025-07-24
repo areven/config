@@ -1,5 +1,11 @@
 # @areven/commitlint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- 8eef350: Added package readme.md
+
 ## 1.0.1
 
 ### Patch Changes
