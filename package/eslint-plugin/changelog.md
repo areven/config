@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.0.2
+
+### Patch Changes
+
+- 8eef350: Added package readme.md
+
 ## 2.0.1
 
 ### Patch Changes

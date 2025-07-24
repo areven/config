@@ -1,5 +1,13 @@
 # @areven/eslint-config-node
 
+## 3.0.2
+
+### Patch Changes
+
+- 8eef350: Added package readme.md
+- Updated dependencies [8eef350]
+  - @areven/eslint-config@3.0.2
+
 ## 3.0.1
 
 ### Patch Changes
