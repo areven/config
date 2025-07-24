@@ -4,6 +4,7 @@
   "references": [
     {"path": "./package/commitlint-config"},
     {"path": "./package/eslint-config"},
+    {"path": "./package/eslint-config-next"},
     {"path": "./package/eslint-config-node"},
     {"path": "./package/eslint-config-react"},
     {"path": "./package/eslint-plugin"}
