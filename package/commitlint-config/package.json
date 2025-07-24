@@ -2,7 +2,7 @@
   "name": "@areven/commitlint-config",
   "author": "Areven",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Areven's commitlint config",
   "keywords": [
     "areven",
