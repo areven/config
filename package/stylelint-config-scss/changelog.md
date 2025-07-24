@@ -1,5 +1,16 @@
 # @areven/stylelint-config-scss
 
+## 3.1.0
+
+### Minor Changes
+
+- 1024e06: Adjusted the presets
+
+### Patch Changes
+
+- Updated dependencies [1024e06]
+  - @areven/stylelint-config@3.1.0
+
 ## 3.0.0
 
 ### Major Changes
