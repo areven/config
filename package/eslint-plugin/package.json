@@ -2,7 +2,7 @@
   "name": "@areven/eslint-plugin",
   "author": "Areven",
   "license": "MIT",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Areven's eslint extensions",
   "keywords": [
     "areven",

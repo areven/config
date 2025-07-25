@@ -1,5 +1,18 @@
 # @areven/eslint-config-react
 
+## 4.1.0
+
+### Minor Changes
+
+- 81c9fee: Fixed invalid sorting of @\*/\*\* imports
+
+### Patch Changes
+
+- 81af8c1: Implemented minor stylistic fixes
+- Updated dependencies [81c9fee]
+- Updated dependencies [81af8c1]
+  - @areven/eslint-config@3.1.0
+
 ## 4.0.2
 
 ### Patch Changes
