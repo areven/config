@@ -42,10 +42,11 @@ export const eslintPresetImport: Linter.RulesRecord = {
       'type'
     ],
     sortTypesGroup: true,
-    pathGroupsExcludedImportTypes: ['external'],
+    distinctGroup: false,
+    pathGroupsExcludedImportTypes: ['builtin'],
     pathGroups: [
       {
-        pattern: '@**',
+        pattern: '@*/**',
         group: 'builtin',
         position: 'after'
       },
