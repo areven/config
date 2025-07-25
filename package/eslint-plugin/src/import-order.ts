@@ -3,7 +3,7 @@
 // =============================================================================
 
 import type {Rule} from 'eslint';
-import type {ImportDeclaration} from 'estree';
+import type {CallExpression, ImportDeclaration} from 'estree';
 
 
 const rule: Rule.RuleModule = {
@@ -17,12 +17,12 @@ const rule: Rule.RuleModule = {
     }
   },
 
-  create: function (context) {
+  create: function (context: Rule.RuleContext) {
     let foundRequireCall = false;
     const checkSeq = createSequenceChecker(context);
 
     return {
-      ImportDeclaration(node) {
+      ImportDeclaration(node: ImportDeclaration) {
         // imports must precede require() calls
         if (foundRequireCall) {
           context.report({
@@ -45,7 +45,7 @@ const rule: Rule.RuleModule = {
         // verify import
         checkSeq(node, node.source.value);
       },
-      CallExpression(node) {
+      CallExpression(node: CallExpression) {
         if (node.callee.type === 'Identifier' && node.callee.name === 'require') {
           foundRequireCall = true;
         }
@@ -92,7 +92,7 @@ function createSequenceChecker(context: Rule.RuleContext) {
   };
 }
 
-function normalizePath(importPath: string) {
+function normalizePath(importPath: string): string {
   if (importPath.startsWith('!')) {
     // strip webpack loaders
     importPath = importPath.substring(1 + importPath.lastIndexOf('!'));
@@ -101,7 +101,7 @@ function normalizePath(importPath: string) {
   return importPath;
 }
 
-function determinePathClass(importPath: string) {
+function determinePathClass(importPath: string): number {
   // 1. modules without @ or proto:
   // 2. modules with proto:
   // 3. modules with @

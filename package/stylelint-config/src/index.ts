@@ -16,7 +16,7 @@ const stylelintConfig: Config = {
         'fill-opacity',
         'flood-opacity',
         'stop-opacity',
-        'stroke-opacity',
+        'stroke-opacity'
       ]
     }],
     'annotation-no-unknown': true,
@@ -36,7 +36,7 @@ const stylelintConfig: Config = {
     'color-function-alias-notation': 'without-alpha',
     'color-function-notation': 'modern',
     'color-hex-length': 'long',
-		'color-no-invalid-hex': true,
+    'color-no-invalid-hex': true,
     'comment-empty-line-before': ['always', {
       except: ['first-nested'],
       ignore: ['stylelint-commands']
@@ -44,14 +44,14 @@ const stylelintConfig: Config = {
     'comment-no-empty': true,
     'comment-whitespace-inside': 'always',
     'container-name-pattern': ['^(--)?([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (name: string) => `Expected container name "${name}" to be kebab-case`,
+      message: (name: string) => `Expected container name "${name}" to be kebab-case`
     }],
     'custom-media-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (name: string) => `Expected custom media query name "${name}" to be kebab-case`,
+      message: (name: string) => `Expected custom media query name "${name}" to be kebab-case`
     }],
     'custom-property-no-missing-var-function': true,
     'custom-property-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (name: string) => `Expected custom property name "${name}" to be kebab-case`,
+      message: (name: string) => `Expected custom property name "${name}" to be kebab-case`
     }],
     'declaration-block-no-duplicate-custom-properties': true,
     'declaration-block-no-duplicate-properties': [true, {
@@ -65,7 +65,7 @@ const stylelintConfig: Config = {
     'font-family-no-duplicate-names': true,
     'font-family-no-missing-generic-family-keyword': true,
     'function-calc-no-unspaced-operator': true,
-		'function-linear-gradient-no-nonstandard-direction': true,
+    'function-linear-gradient-no-nonstandard-direction': true,
     'function-name-case': 'lower',
     'function-url-quotes': 'always',
     'hue-degree-notation': 'angle',
@@ -74,10 +74,10 @@ const stylelintConfig: Config = {
     'keyframe-declaration-no-important': true,
     'keyframe-selector-notation': 'percentage-unless-within-keyword-only-block',
     'keyframes-name-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (name: string) => `Expected keyframe name "${name}" to be kebab-case`,
+      message: (name: string) => `Expected keyframe name "${name}" to be kebab-case`
     }],
     'layer-name-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (name: string) => `Expected layer name "${name}" to be kebab-case`,
+      message: (name: string) => `Expected layer name "${name}" to be kebab-case`
     }],
     'length-zero-no-unit': [true, {
       ignore: ['custom-properties']
@@ -106,10 +106,10 @@ const stylelintConfig: Config = {
     'selector-anb-no-unmatchable': true,
     'selector-attribute-quotes': 'always',
     'selector-class-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (selector: string) => `Expected class selector "${selector}" to be kebab-case`,
+      message: (selector: string) => `Expected class selector "${selector}" to be kebab-case`
     }],
     'selector-id-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
-      message: (selector: string) => `Expected id selector "${selector}" to be kebab-case`,
+      message: (selector: string) => `Expected id selector "${selector}" to be kebab-case`
     }],
     'selector-no-vendor-prefix': true,
     'selector-not-notation': 'complex',

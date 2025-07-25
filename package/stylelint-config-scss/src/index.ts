@@ -35,7 +35,7 @@ const stylelintConfig: Config = {
         ignorePreludeOfAtRules: ['function', 'mixin']
       }],
       'no-invalid-position-at-import-rule': [true, {
-        ignoreAtRules: ['use', 'forward'],
+        ignoreAtRules: ['use', 'forward']
       }],
 
       // and this is for scss

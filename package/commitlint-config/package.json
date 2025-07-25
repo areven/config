@@ -49,7 +49,8 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "eslint": "NODE_OPTIONS='--conditions=raw' eslint src/"
   },
   "peerDependencies": {
     "@commitlint/cli": ">= 19"

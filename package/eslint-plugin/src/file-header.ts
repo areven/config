@@ -3,6 +3,7 @@
 // =============================================================================
 
 import type {Rule} from 'eslint';
+import type {Program} from 'estree';
 
 
 const rule: Rule.RuleModule = {
@@ -19,7 +20,7 @@ const rule: Rule.RuleModule = {
     }
   },
 
-  create(context) {
+  create(context: Rule.RuleContext) {
     const fileName = context.filename.split('/').pop();
     const sourceCode = context.sourceCode.getText();
     const lowerSourceCode = sourceCode.toLowerCase();
@@ -27,7 +28,7 @@ const rule: Rule.RuleModule = {
     const blockHeader = '// =============================================================================';
 
     return {
-      Program(node) {
+      Program(node: Program) {
         // Ignore known managed files
         if (
           fileName === 'next-env.d.ts'
