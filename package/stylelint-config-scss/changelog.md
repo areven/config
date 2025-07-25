@@ -1,5 +1,13 @@
 # @areven/stylelint-config-scss
 
+## 3.1.1
+
+### Patch Changes
+
+- 81af8c1: Implemented minor stylistic fixes
+- Updated dependencies [81af8c1]
+  - @areven/stylelint-config@3.1.1
+
 ## 3.1.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @areven/stylelint-config
 
+## 3.1.1
+
+### Patch Changes
+
+- 81af8c1: Implemented minor stylistic fixes
+
 ## 3.1.0
 
 ### Minor Changes

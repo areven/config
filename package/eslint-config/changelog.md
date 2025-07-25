@@ -1,5 +1,17 @@
 # @areven/eslint-config
 
+## 3.1.0
+
+### Minor Changes
+
+- 81c9fee: Fixed invalid sorting of @\*/\*\* imports
+
+### Patch Changes
+
+- 81af8c1: Implemented minor stylistic fixes
+- Updated dependencies [81af8c1]
+  - @areven/eslint-plugin@2.0.3
+
 ## 3.0.2
 
 ### Patch Changes

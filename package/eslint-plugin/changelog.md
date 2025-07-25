@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.0.3
+
+### Patch Changes
+
+- 81af8c1: Implemented minor stylistic fixes
+
 ## 2.0.2
 
 ### Patch Changes
