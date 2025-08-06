@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 3.2.0
+
+### Minor Changes
+
+- 4af0570: Improved handling of \*.d.ts files
+
 ## 3.1.0
 
 ### Minor Changes
