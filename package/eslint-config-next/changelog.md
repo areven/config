@@ -1,5 +1,11 @@
 # @areven/eslint-config-next
 
+## 2.3.0
+
+### Minor Changes
+
+- 5f16dee: Disabled the no-autofocus rule, which makes no sense for modals
+
 ## 2.2.0
 
 ### Minor Changes
