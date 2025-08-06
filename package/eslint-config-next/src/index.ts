@@ -66,7 +66,8 @@ const eslintConfig: Linter.Config[] = [
     rules: {
       ...eslintPresetReact,
       ...eslintPresetReactHooks,
-      ...require('eslint-plugin-jsx-a11y').flatConfigs.recommended.rules
+      ...require('eslint-plugin-jsx-a11y').flatConfigs.recommended.rules,
+      'jsx-a11y/no-autofocus': 'off' // perfectly valid in modals
     }
   },
 
