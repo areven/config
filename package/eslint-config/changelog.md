@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 3.3.0
+
+### Minor Changes
+
+- 1703ea2: Adjusted how sibling imports with explicit extensions are sorted
+
 ## 3.2.0
 
 ### Minor Changes
