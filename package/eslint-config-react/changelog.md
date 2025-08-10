@@ -1,5 +1,16 @@
 # @areven/eslint-config-react
 
+## 4.3.0
+
+### Minor Changes
+
+- 1703ea2: Adjusted how sibling imports with explicit extensions are sorted
+
+### Patch Changes
+
+- Updated dependencies [1703ea2]
+  - @areven/eslint-config@3.3.0
+
 ## 4.2.0
 
 ### Minor Changes
