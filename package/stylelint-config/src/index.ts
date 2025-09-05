@@ -79,9 +79,6 @@ const stylelintConfig: Config = {
     'layer-name-pattern': ['^([a-z][a-z0-9]*)(-[a-z0-9]+)*$', {
       message: (name: string) => `Expected layer name "${name}" to be kebab-case`
     }],
-    'length-zero-no-unit': [true, {
-      ignore: ['custom-properties']
-    }],
     'lightness-notation': 'percentage',
     'media-feature-name-no-unknown': true,
     'media-feature-name-no-vendor-prefix': true,
