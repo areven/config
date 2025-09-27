@@ -18,6 +18,16 @@ const eslintConfig: Linter.Config[] = [
   ...coreConfig,
 
   {
+    ignores: [
+      'node_modules/**',
+      '.next/**',
+      'out/**',
+      'build/**',
+      'next-env.d.ts'
+    ]
+  },
+
+  {
     files: jsxFiles,
     languageOptions: {
       parserOptions: {
