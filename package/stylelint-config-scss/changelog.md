@@ -1,5 +1,16 @@
 # @areven/stylelint-config-scss
 
+## 3.2.0
+
+### Minor Changes
+
+- 17e8095: Removed the length-zero-no-unit stylelint rule
+
+### Patch Changes
+
+- Updated dependencies [17e8095]
+  - @areven/stylelint-config@3.2.0
+
 ## 3.1.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @areven/eslint-config-next
 
+## 2.4.1
+
+### Patch Changes
+
+- b841796: Added a global `ignores` list for nextjs files
+
 ## 2.4.0
 
 ### Minor Changes

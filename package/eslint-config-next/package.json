@@ -2,7 +2,7 @@
   "name": "@areven/eslint-config-next",
   "author": "Areven",
   "license": "MIT",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Areven's eslint config for next",
   "keywords": [
     "areven",
