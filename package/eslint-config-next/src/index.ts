@@ -12,7 +12,7 @@ import type {Linter} from 'eslint';
 
 const eslintConfig: Linter.Config[] = [
   ...coreConfig,
-  nextPlugin.configs['recommended'],
+  nextPlugin.configs.recommended,
   nextPlugin.configs['core-web-vitals'],
 
   {
