@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 3.4.0
+
+### Minor Changes
+
+- 0b9e414: Upgraded package dependencies
+
 ## 3.3.0
 
 ### Minor Changes

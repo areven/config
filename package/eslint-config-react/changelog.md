@@ -1,5 +1,16 @@
 # @areven/eslint-config-react
 
+## 4.4.0
+
+### Minor Changes
+
+- 0b9e414: Upgraded package dependencies
+
+### Patch Changes
+
+- Updated dependencies [0b9e414]
+  - @areven/eslint-config@3.4.0
+
 ## 4.3.0
 
 ### Minor Changes

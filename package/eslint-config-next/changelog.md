@@ -1,5 +1,20 @@
 # @areven/eslint-config-next
 
+## 3.0.0
+
+### Major Changes
+
+- 1110692: Updated to support Next 16
+
+### Minor Changes
+
+- 0b9e414: Upgraded package dependencies
+
+### Patch Changes
+
+- Updated dependencies [0b9e414]
+  - @areven/eslint-config@3.4.0
+
 ## 2.4.1
 
 ### Patch Changes
