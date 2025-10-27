@@ -6,16 +6,14 @@ import globals from 'globals';
 import coreConfig, {
   eslintPresetReact, eslintPresetReactHooks, jsFiles, jsxFiles, tsFiles, tsxFiles, usesTypeScript
 } from '@areven/eslint-config';
-import {FlatCompat} from '@eslint/eslintrc';
+import nextPlugin from '@next/eslint-plugin-next';
 import type {Linter} from 'eslint';
 
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname
-});
-
 const eslintConfig: Linter.Config[] = [
   ...coreConfig,
+  nextPlugin.configs['recommended'],
+  nextPlugin.configs['core-web-vitals'],
 
   {
     ignores: [
@@ -79,14 +77,7 @@ const eslintConfig: Linter.Config[] = [
       ...require('eslint-plugin-jsx-a11y').flatConfigs.recommended.rules,
       'jsx-a11y/no-autofocus': 'off' // perfectly valid in modals
     }
-  },
-
-  ...compat.config({
-    extends: [
-      'plugin:@next/next/recommended',
-      'plugin:@next/next/core-web-vitals'
-    ]
-  })
+  }
 ];
 
 export default eslintConfig;
