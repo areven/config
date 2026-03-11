@@ -1,5 +1,16 @@
 # @areven/eslint-config-node
 
+## 3.5.0
+
+### Minor Changes
+
+- 0126316: Improved the global `ignores` list
+
+### Patch Changes
+
+- Updated dependencies [0126316]
+  - @areven/eslint-config@3.5.0
+
 ## 3.4.0
 
 ### Minor Changes

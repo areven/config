@@ -1,5 +1,16 @@
 # @areven/eslint-config-next
 
+## 3.1.0
+
+### Minor Changes
+
+- 0126316: Improved the global `ignores` list
+
+### Patch Changes
+
+- Updated dependencies [0126316]
+  - @areven/eslint-config@3.5.0
+
 ## 3.0.0
 
 ### Major Changes
