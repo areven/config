@@ -53,6 +53,11 @@ const rule: Rule.RuleModule = {
           return;
         }
 
+        // Allow shebangs for executable scripts
+        if (lines[0].startsWith('#!')) {
+          lines.shift();
+        }
+
         // Require the block header to exist
         if (
           lines[0] !== blockHeader ||
