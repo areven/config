@@ -12,6 +12,7 @@ export const eslintPresetTypeScript: Linter.RulesRecord = {
   'no-loss-of-precision': 'off',
   'no-redeclare': 'off',
   'no-throw-literal': 'off',
+  'no-undef': 'off',
   'no-useless-constructor': 'off',
   'prefer-promise-reject-errors': 'off',
 
