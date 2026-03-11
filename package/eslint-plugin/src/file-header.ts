@@ -31,6 +31,7 @@ const rule: Rule.RuleModule = {
       Program(node: Program) {
         // Ignore known managed files
         if (
+          fileName === 'expo-env.d.ts' ||
           fileName === 'next-env.d.ts'
         ) {
           return;
