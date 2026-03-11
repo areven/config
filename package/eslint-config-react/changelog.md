@@ -1,5 +1,16 @@
 # @areven/eslint-config-react
 
+## 4.5.1
+
+### Patch Changes
+
+- 62aeede: Disabled the redundant 'jsx-no-undef' rule for react typescript targets
+- 583717f: Disabled the redundant 'no-undef' rule for typescript targets
+- 5daf369: The 'file-header' rule no longer applies to executable files
+- Updated dependencies [583717f]
+- Updated dependencies [5daf369]
+  - @areven/eslint-config@3.5.1
+
 ## 4.5.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.1.1
+
+### Patch Changes
+
+- 5daf369: The 'file-header' rule no longer applies to executable files
+
 ## 2.1.0
 
 ### Minor Changes
