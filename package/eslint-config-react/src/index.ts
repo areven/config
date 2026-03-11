@@ -63,7 +63,14 @@ const eslintConfig: Linter.Config[] = [
       ...eslintPresetReactHooks,
       ...require('eslint-plugin-jsx-a11y').flatConfigs.recommended.rules
     }
-  }
+  },
+
+  ...(!usesTypeScript ? [] : [{
+    files: tsFiles,
+    rules: {
+      'react/jsx-no-undef': 'off'
+    } as const
+  }])
 ];
 
 export default eslintConfig;
