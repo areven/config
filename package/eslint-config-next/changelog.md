@@ -1,5 +1,15 @@
 # @areven/eslint-config-next
 
+## 3.1.1
+
+### Patch Changes
+
+- 583717f: Disabled the redundant 'no-undef' rule for typescript targets
+- 5daf369: The 'file-header' rule no longer applies to executable files
+- Updated dependencies [583717f]
+- Updated dependencies [5daf369]
+  - @areven/eslint-config@3.5.1
+
 ## 3.1.0
 
 ### Minor Changes
