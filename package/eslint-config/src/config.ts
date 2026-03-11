@@ -17,13 +17,24 @@ import type {Linter} from 'eslint';
 export const eslintConfig: Linter.Config[] = [
   {
     ignores: [
-      '**/node_modules/',
+      '.build/',
+      '.cache/',
+      '.dist/',
       '.expo/',
       '.git/',
       '.idea/',
       '.next/',
+      '.turbo/',
+      '.vercel/',
       '.vscode/',
-      '.yarn/'
+      '.yarn/',
+      'coverage/',
+      'dist/',
+      'node_modules/',
+      'out/',
+      '*.tsbuildinfo',
+      '*.d.ts',
+      '*.d.ts.map'
     ]
   },
 
