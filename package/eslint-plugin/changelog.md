@@ -1,5 +1,15 @@
 # @areven/eslint-plugin
 
+## 2.1.0
+
+### Minor Changes
+
+- faf3e1e: Updated the `file-header` rule to accept shebangs
+
+### Patch Changes
+
+- 2196f58: Updated the `file-header` rule to ignore the `expo-env.d.ts` file
+
 ## 2.0.3
 
 ### Patch Changes
