@@ -53,9 +53,9 @@ const rule: Rule.RuleModule = {
           return;
         }
 
-        // Allow shebangs for executable scripts
+        // Ignore executable files starting with a shebang
         if (lines[0].startsWith('#!')) {
-          lines.shift();
+          return;
         }
 
         // Require the block header to exist
