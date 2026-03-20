@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 3.5.2
+
+### Patch Changes
+
+- 76c673e: Updated import resolver to support #/\* absolute paths
+
 ## 3.5.1
 
 ### Patch Changes

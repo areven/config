@@ -1,5 +1,13 @@
 # @areven/eslint-config-next
 
+## 3.1.2
+
+### Patch Changes
+
+- 76c673e: Updated import resolver to support #/\* absolute paths
+- Updated dependencies [76c673e]
+  - @areven/eslint-config@3.5.2
+
 ## 3.1.1
 
 ### Patch Changes
