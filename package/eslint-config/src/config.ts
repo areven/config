@@ -63,7 +63,10 @@ export const eslintConfig: Linter.Config[] = [
       },
       'import/resolver': {
         alias: {
-          map: [['~', './']],
+          map: [
+            ['#', './'],
+            ['~', './']
+          ],
           extensions: [
             usesTypeScript && '.ts',
             usesTypeScript && usesJSX && '.tsx',
