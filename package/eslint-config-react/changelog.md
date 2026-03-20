@@ -1,5 +1,13 @@
 # @areven/eslint-config-react
 
+## 4.5.2
+
+### Patch Changes
+
+- 76c673e: Updated import resolver to support #/\* absolute paths
+- Updated dependencies [76c673e]
+  - @areven/eslint-config@3.5.2
+
 ## 4.5.1
 
 ### Patch Changes
