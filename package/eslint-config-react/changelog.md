@@ -1,5 +1,13 @@
 # @areven/eslint-config-react
 
+## 4.5.3
+
+### Patch Changes
+
+- d8b7db9: Updated the 'import-order' rule to support #/\* absolute imports
+- Updated dependencies [d8b7db9]
+  - @areven/eslint-config@3.5.3
+
 ## 4.5.2
 
 ### Patch Changes

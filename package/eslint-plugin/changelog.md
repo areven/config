@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.1.2
+
+### Patch Changes
+
+- d8b7db9: Updated the 'import-order' rule to support #/\* absolute imports
+
 ## 2.1.1
 
 ### Patch Changes
