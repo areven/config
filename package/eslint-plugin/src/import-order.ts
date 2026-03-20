@@ -105,7 +105,7 @@ function determinePathClass(importPath: string): number {
   // 1. modules without @ or proto:
   // 2. modules with proto:
   // 3. modules with @
-  // 4. project imports using ~/ paths
+  // 4. project imports using #/ or ~/ paths
   // 5. local imports using relative paths with no extension
   // 6. local imports using relative paths with an extension
 
@@ -122,7 +122,7 @@ function determinePathClass(importPath: string): number {
     }
   }
 
-  if (importPath.startsWith('~/')) {
+  if (importPath.startsWith('#/') || importPath.startsWith('~/')) {
     return 4;
   }
 
