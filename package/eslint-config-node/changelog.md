@@ -1,5 +1,16 @@
 # @areven/eslint-config-node
 
+## 3.6.0
+
+### Minor Changes
+
+- 97787e5: Added an auto-fixable 'import-line-breaks' rule
+
+### Patch Changes
+
+- Updated dependencies [97787e5]
+  - @areven/eslint-config@3.6.0
+
 ## 3.5.3
 
 ### Patch Changes
