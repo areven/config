@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.2.0
+
+### Minor Changes
+
+- 97787e5: Added an auto-fixable 'import-line-breaks' rule
+
 ## 2.1.2
 
 ### Patch Changes
