@@ -1,5 +1,11 @@
 # @areven/eslint-config
 
+## 3.6.1
+
+### Patch Changes
+
+- 494e0b9: Updated the 'import/order' rule to recognize #/\* imports
+
 ## 3.6.0
 
 ### Minor Changes
