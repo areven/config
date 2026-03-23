@@ -55,6 +55,10 @@ export const eslintPresetImport: Linter.RulesRecord = {
         group: 'internal'
       },
       {
+        pattern: '#/**',
+        group: 'internal'
+      },
+      {
         pattern: './**/*.+([a-zA-Z0-9])?([a-zA-Z0-9])?([a-zA-Z0-9])?([a-zA-Z0-9])',
         group: 'sibling',
         position: 'after'
