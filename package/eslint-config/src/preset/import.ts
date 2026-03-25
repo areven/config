@@ -10,17 +10,17 @@ export const eslintPresetImport: Linter.RulesRecord = {
   'import/default': 'error',
   'import/enforce-node-protocol-usage': ['error', 'always'],
   'import/export': 'error',
-  'import/extensions': [
-    'error', 'always', {
-      'js': 'never',
-      'mjs': 'never',
-      'cjs': 'never',
-      'jsx': 'never',
-      'ts': 'never',
-      'tsx': 'never',
-      'mtsx': 'never'
-    }
-  ],
+  // 'import/extensions': [
+  //   'error', 'always', {
+  //     'js': 'never',
+  //     'mjs': 'never',
+  //     'cjs': 'never',
+  //     'jsx': 'never',
+  //     'ts': 'never',
+  //     'tsx': 'never',
+  //     'mtsx': 'never'
+  //   }
+  // ],
   'import/first': 'error',
   'import/named': 'error',
   'import/namespace': 'error',
