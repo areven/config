@@ -1,5 +1,13 @@
 # @areven/eslint-config-next
 
+## 3.2.2
+
+### Patch Changes
+
+- 35235a7: Disabled the faulty 'import/extensions' rule
+- Updated dependencies [35235a7]
+  - @areven/eslint-config@3.6.2
+
 ## 3.2.1
 
 ### Patch Changes
