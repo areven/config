@@ -1,5 +1,11 @@
 # @areven/eslint-plugin
 
+## 2.3.0
+
+### Minor Changes
+
+- 157d863: Added support for typescript 6.x
+
 ## 2.2.0
 
 ### Minor Changes

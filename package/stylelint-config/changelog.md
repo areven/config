@@ -1,5 +1,11 @@
 # @areven/stylelint-config
 
+## 4.0.0
+
+### Major Changes
+
+- 157d863: Updated to stylelint >= 17
+
 ## 3.2.0
 
 ### Minor Changes

@@ -1,5 +1,16 @@
 # @areven/stylelint-config-scss
 
+## 4.0.0
+
+### Major Changes
+
+- 157d863: Updated to stylelint >= 17
+
+### Patch Changes
+
+- Updated dependencies [157d863]
+  - @areven/stylelint-config@4.0.0
+
 ## 3.2.0
 
 ### Minor Changes
