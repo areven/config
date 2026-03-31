@@ -55,9 +55,9 @@
   "dependencies": {
     "@areven/stylelint-config": "^3.2.0",
     "postcss-scss": "4.0.9",
-    "stylelint-scss": "6.12.1"
+    "stylelint-scss": "7.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">= 16"
+    "stylelint": ">= 17"
   }
 }

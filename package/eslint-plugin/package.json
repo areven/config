@@ -52,6 +52,6 @@
     "eslint": "NODE_OPTIONS='--conditions=raw' eslint src/"
   },
   "peerDependencies": {
-    "eslint": ">= 9"
+    "eslint": ">=9 <10"
   }
 }

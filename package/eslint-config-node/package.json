@@ -53,9 +53,9 @@
   },
   "dependencies": {
     "@areven/eslint-config": "^3.6.2",
-    "globals": "16.4.0"
+    "globals": "17.4.0"
   },
   "peerDependencies": {
-    "eslint": ">= 9"
+    "eslint": ">=9 <10"
   }
 }

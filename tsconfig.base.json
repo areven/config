@@ -18,6 +18,10 @@
     "allowUnusedLabels": false,
     "isolatedDeclarations": true,
     "isolatedModules": true,
-    "noImplicitOverride": true
+    "noImplicitOverride": true,
+
+    "types": [
+      "node"
+    ]
   }
 }
