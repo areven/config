@@ -1,5 +1,16 @@
 # @areven/eslint-config
 
+## 3.7.0
+
+### Minor Changes
+
+- 157d863: Added support for typescript 6.x
+
+### Patch Changes
+
+- Updated dependencies [157d863]
+  - @areven/eslint-plugin@2.3.0
+
 ## 3.6.2
 
 ### Patch Changes

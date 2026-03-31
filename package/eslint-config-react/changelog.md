@@ -1,5 +1,20 @@
 # @areven/eslint-config-react
 
+## 5.0.0
+
+### Major Changes
+
+- 157d863: Updated to react >= 19
+
+### Minor Changes
+
+- 157d863: Added support for typescript 6.x
+
+### Patch Changes
+
+- Updated dependencies [157d863]
+  - @areven/eslint-config@3.7.0
+
 ## 4.6.2
 
 ### Patch Changes
